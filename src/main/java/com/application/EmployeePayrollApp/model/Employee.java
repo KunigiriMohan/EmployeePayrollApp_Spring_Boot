@@ -16,8 +16,8 @@ public class Employee {
 	@Id
 	@GeneratedValue
 	private long id;
-    private String name;
-    private Long salary;
+    	private String name;
+    	private Long salary;
 
 	/**
 	 * Defining Constructer
@@ -32,7 +32,7 @@ public class Employee {
 	}
 	public Employee(){}
 
-    /**
+    	 /**
 	 * Getters and setters of variables
 	 */
 	public String getName() {
@@ -51,8 +51,8 @@ public class Employee {
 	}
 	public long getId() {
         return id;
-    }
+    	}
 	public void setId(long id) {
         this.id = id;
-    }
+    	}
 }
